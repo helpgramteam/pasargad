@@ -2,7 +2,7 @@
 do
  function run(msg, matches)
 return [[ 
-تعرفه ﴿*classic*﴾
+تعرفه ﴿*smart*﴾
 
  https://t.me/pasargad_cute
 
