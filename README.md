@@ -18,7 +18,7 @@ screen ./autohe.sh
 
 killall screen
 
-cd classic
+cd pasargad
 
 screen ./autohe.sh
 
