@@ -15,8 +15,8 @@ return [[
 - مقام من
 - مشاهده مقام شما در ربات
 -------------------------
- @pasargad_cute
- @Cute_1990
+*🎭shop :* @lCute1990l
+*🎭Channel:* @pasargadcute
 ]]
 end
 return {
