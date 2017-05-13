@@ -83,7 +83,8 @@ function create_config( )
 	"date",
 	"myid",
 	"clbl",
-	"new"
+	"new",
+	"pasargad"
 	},
     sudo_users = {338707630},
     admins = {},
