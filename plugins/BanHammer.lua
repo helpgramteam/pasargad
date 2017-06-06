@@ -692,7 +692,7 @@ return tdcli.sendMessage(msg.to.id, msg.id, 0, "*کاربر "..matches[2].." ا�
     }, action_by_username, {chat_id=msg.to.id,username=matches[2],cmd="unban"})
       end
    end
- if matches[1] == "silent" and is_mod(msg) or  matches[1] == "Silent" and is_mod(msg) or  matches[1] == "خفه" and is_mod(msg) then
+ if matches[1] == "silent" and is_mod(msg) or  matches[1] == "Silent" and is_mod(msg) or  matches[1] == "ساکت" and is_mod(msg) then
 if not matches[2] and msg.reply_id then
     tdcli_function ({
       ID = "GetMessage",
@@ -730,7 +730,7 @@ data[tostring(chat)]['is_silent_users'][tostring(matches[2])] = ""
     }, action_by_username, {chat_id=msg.to.id,username=matches[2],cmd="silent"})
       end
    end
- if matches[1] == "unsilent" and is_mod(msg) or  matches[1] == "Unsilent" and is_mod(msg) or  matches[1] == "ان خفه" and is_mod(msg) then
+ if matches[1] == "unsilent" and is_mod(msg) or  matches[1] == "Unsilent" and is_mod(msg) or  matches[1] == "ان ساکت" and is_mod(msg) then
 if not matches[2] and msg.reply_id then
     tdcli_function ({
       ID = "GetMessage",
@@ -780,7 +780,7 @@ data[tostring(chat)]['is_silent_users'][tostring(matches[2])] = nil
 				return "*تمام کاربران محروم شده از گروه از محرومیت خارج شدند*"
            end
 			end
-			if matches[2] == 'silentlist' or matches[2] == 'Silentlist' or matches[2] == 'لیست خفه' then
+			if matches[2] == 'silentlist' or matches[2] == 'Silentlist' or matches[2] == 'لیست ساکت' then
 				if next(data[tostring(chat)]['is_silent_users']) == nil then
         if not lang then
 					return "_No_ *silent* _users in this group_"
@@ -824,7 +824,7 @@ if matches[1] == "gbanlist" and is_admin(msg) or  matches[1] == "Gbanlist" and i
   return gbanned_list(msg)
  end
    if msg.to.type ~= 'pv' then
-if matches[1] == "silentlist" and is_mod(msg) or matches[1] == "Silentlist" and is_mod(msg) or matches[1] == "لیست خفه " and is_mod(msg) then
+if matches[1] == "silentlist" and is_mod(msg) or matches[1] == "Silentlist" and is_mod(msg) or matches[1] == "لیست ساکت " and is_mod(msg) then
   return silent_users_list(chat)
  end
 if matches[1] == "banlist" and is_mod(msg) or matches[1] == "Banlist" and is_mod(msg) or matches[1] == "لیست بن" and is_mod(msg) then
@@ -866,19 +866,19 @@ return {
 		"^(لیست بن)$",
 		"^[!/#]([Ss]ilent)$",
 		"^([Ss]ilent)$",
-		"^(خفه)$",
+		"^(ساکت)$",
 		"^[!/#]([Ss]ilent) (.*)$",
 		"^([Ss]ilent) (.*)$",
-		"^(خفه) (.*)$",
+		"^(ساکت) (.*)$",
 		"^[!/#]([Uu]nsilent)$",
 		"^([Uu]nsilent)$",
-		"^(ان خفه)$",
+		"^(ان ساکت)$",
 		"^[!/#]([Uu]nsilent) (.*)$",
 		"^([Uu]nsilent) (.*)$",
-		"^(ان خفه) (.*)$",
+		"^(ان ساکت) (.*)$",
 		"^[!/#]([Ss]ilentlist)$",
 		"^([Ss]ilentlist)$",
-		"^(لیست خفه)$",
+		"^(لیست ساکت)$",
 		"^[!/#]([Kk]ick)$",
 		"^([Kk]ick)$",
 		"^(کیک)$",
