@@ -609,17 +609,17 @@ end
 local lock_link = data[tostring(target)]["settings"]["lock_link"] 
 if lock_link == "yes" then
 if not lang then
- return "☆》*Lιηк* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭shop :* @pasargadcute"
+ return "`☆》*Lιηк* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال #لینک در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #لینک در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
 data[tostring(target)]["settings"]["lock_link"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Lιηк* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭shop :* @pasargadcute"
+ return "`☆》*Lιηк* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》ارسال #لینک در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #لینک در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -638,16 +638,16 @@ end
 local lock_link = data[tostring(target)]["settings"]["lock_link"]
  if lock_link == "no" then
 if not lang then
-return "☆》*Lιηк* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭shop :* @pasargadcute" 
+return "`☆》*Lιηк* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》ارسال #لینک در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #لینک در گروه  از قبلا ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_link"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Lιηк* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭shop :* @pasargadcute" 
+return "`☆》*Lιηк* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》ارسال #لینک در گروه  ازاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #لینک در گروه  ازاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -666,17 +666,17 @@ end
 local lock_tag = data[tostring(target)]["settings"]["lock_tag"] 
 if lock_tag == "yes" then
 if not lang then
- return "☆》*Tαg* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭shop :* @pasargadcute"
+ return "`☆》*Tαg* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال #هشتگ و یوزرنیم در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #هشتگ و یوزرنیم در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_tag"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Tαg* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭shop :* @pasargadcute"
+ return "`☆》*Tαg* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》ارسال #هشتگ و یوزرنیم در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #هشتگ و یوزرنیم در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -695,16 +695,16 @@ end
 local lock_tag = data[tostring(target)]["settings"]["lock_tag"]
  if lock_tag == "no" then
 if not lang then
-return "☆》*Tαg* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭shop :* @pasargadcute" 
+return "`☆》*Tαg* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》ارسال #هشتگ و یوزرنیم در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #هشتگ و یوزرنیم در گروه  از قبلا ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_tag"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Tαg* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭shop :* @pasargadcute" 
+return "`☆》*Tαg* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》ارسال #هشتگ و یوزرنیم در گروه  ازاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #هشتگ و یوزرنیم در گروه  ازاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -723,17 +723,17 @@ end
 local lock_views = data[tostring(target)]["settings"]["views"] 
 if lock_views == "yes" then
 if not lang then
- return "#Views _Posting Is Already Locked_\n*_________________*\n*🎭shop :* @pasargadcute"
+ return "`#Views _Posting Is Already Locked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "ارسال #پست ویو دار در گروه هم اکنون ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`ارسال #پست ویو دار در گروه هم اکنون ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["views"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "#Views _Posting Has Been Locked_\n*_________________*\n*🎭shop :* @pasargadcute"
+ return "`#Views _Posting Has Been Locked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "ارسال #پست ویو دار در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`ارسال #پست ویو دار در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -752,16 +752,16 @@ end
 local lock_views = data[tostring(target)]["settings"]["views"]
  if lock_views == "no" then
 if not lang then
-return "#Views _Posting Is Not Locked_\n*_________________*\n*🎭shop :* @pasargadcute" 
+return "`#Views _Posting Is Not Locked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "ارسال #پست ویو دار در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`ارسال #پست ویو دار در گروه ممنوع نمیباشد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["views"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "#Views _Posting Has Been Unlocked_\n*_________________*\n*🎭shop :* @pasargadcute" 
+return "`#Views _Posting Has Been Unlocked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "ارسال #پست ویو دار در گروه آزاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`ارسال #پست ویو دار در گروه آزاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -780,17 +780,17 @@ end
 local lock_english = data[tostring(target)]["settings"]["english"] 
 if lock_english == "yes" then
 if not lang then
- return "☆》*Eηgℓιѕн* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭shop :* @pasargadcute"
+ return "`☆》*Eηgℓιѕн* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》نوشته انگلیسی در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》نوشته انگلیسی در گروه از قبل ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["english"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Eηgℓιѕн* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Eηgℓιѕн* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》نوشته انگلیسی در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》نوشته انگلیسی در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -809,16 +809,16 @@ end
 local lock_english = data[tostring(target)]["settings"]["english"]
  if lock_english == "no" then
 if not lang then
-return "☆》*єηgℓιѕн* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*єηgℓιѕн* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》نوشته انگلیسی در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》نوشته انگلیسی در گروه ممنوع نمیباشد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["english"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Eηgℓιѕн* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Eηgℓιѕн* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》نوشته انگلیسی در گروه آزاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》نوشته انگلیسی در گروه آزاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -837,17 +837,17 @@ end
 local lock_emoji = data[tostring(target)]["settings"]["emoji"] 
 if lock_emoji == "yes" then
 if not lang then
- return "☆》*Eмσנι* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Eмσנι* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》نوشته ایموجی در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》نوشته ایموجی در گروه از قبل ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["emoji"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Eмσנι* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Eмσנι* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》نوشته ایموجی در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》نوشته ایموجی در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -866,16 +866,16 @@ end
 local lock_emoji = data[tostring(target)]["settings"]["emoji"]
  if lock_emoji == "no" then
 if not lang then
-return "☆》*Eмσנι* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Eмσנι* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》نوشته ایموجی در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》نوشته ایموجی در گروه ممنوع نمیباشد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["emoji"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "*Eмσנι* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`*Eмσנι* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》نوشته ایموجی در گروه آزاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》نوشته ایموجی در گروه آزاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -894,17 +894,17 @@ end
 local lock_ads = data[tostring(target)]["settings"]["ads"] 
 if lock_ads == "yes" then
 if not lang then
- return "☆》*A∂ѕ* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*A∂ѕ* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال تبلیغات در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال تبلیغات در گروه از قبل ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["ads"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*A∂ѕ* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*A∂ѕ* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》ارسال تبلیغات در گروه ممنوع شد\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال تبلیغات در گروه ممنوع شد`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -923,16 +923,16 @@ end
 local lock_ads = data[tostring(target)]["settings"]["ads"]
  if lock_ads == "no" then
 if not lang then
-return "☆》*α∂ѕ* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*α∂ѕ* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "ارسال تبلیغات در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`ارسال تبلیغات در گروه ممنوع نمیباشد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["ads"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*A∂ѕ* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*A∂ѕ* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》ارسال تبلیغات در گروه آزاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال تبلیغات در گروه آزاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -951,17 +951,17 @@ end
 local lock_fosh = data[tostring(target)]["settings"]["fosh"] 
 if lock_fosh == "yes" then
 if not lang then
- return "#Fosh _Posting Is Already Locked_\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`#Fosh _Posting Is Already Locked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "ارسال #کلمات رکیک در گروه هم اکنون ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`ارسال #کلمات رکیک در گروه هم اکنون ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["fosh"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "#Fosh _Posting Has Been Locked_\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`#Fosh _Posting Has Been Locked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "ارسال #کلمات رکیک در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`ارسال #کلمات رکیک در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -980,16 +980,16 @@ end
 local lock_fosh = data[tostring(target)]["settings"]["english"]
  if lock_fosh == "no" then
 if not lang then
-return "#Fosh _Posting Is Not Locked_\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`#Fosh _Posting Is Not Locked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "ارسال #کلمات رکیک در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`ارسال #کلمات رکیک در گروه ممنوع نمیباشد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["fosh"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "#Fosh _Posting Has Been Unlocked_\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`#Fosh _Posting Has Been Unlocked_\n`*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "ارسال #کلمات رکیک در گروه آزاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`ارسال #کلمات رکیک در گروه آزاد شد🔓\n`*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1008,17 +1008,17 @@ end
 local lock_mention = data[tostring(target)]["settings"]["lock_mention"] 
 if lock_mention == "yes" then
 if not lang then
- return "☆》*Mєηтιση* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mєηтιση* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال #فراخوانی در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #فراخوانی در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_mention"] = "yes"
 save_data(_config.moderation.data, data)
 if not lang then 
- return "☆》*Mєηтιση* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mєηтιση* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else 
- return "☆》ارسال #فراخوانی در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #فراخوانی در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1037,16 +1037,16 @@ end
 local lock_mention = data[tostring(target)]["settings"]["lock_mention"]
  if lock_mention == "no" then
 if not lang then
-return "☆》*Mєηтιση* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mєηтιση* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》ارسال #فراخوانی در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #فراخوانی در گروه  از قبلا ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_mention"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mєηтιση* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mєηтιση* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》ارسال # فراخوانی در گروه  ازاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال # فراخوانی در گروه  ازاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1066,17 +1066,17 @@ end
 local lock_arabic = data[tostring(target)]["settings"]["lock_arabic"] 
 if lock_arabic == "yes" then
 if not lang then
- return "☆》*Pєяѕιαη* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Pєяѕιαη* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال #کلمات فارسی در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #کلمات فارسی در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
 data[tostring(target)]["settings"]["lock_arabic"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Pєяѕιαη* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Pєяѕιαη* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》ارسال #کلمات فارسی در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #کلمات فارسی در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1095,16 +1095,16 @@ end
 local lock_arabic = data[tostring(target)]["settings"]["lock_arabic"]
  if lock_arabic == "no" then
 if not lang then
-return "☆》*Pєяѕιαη* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Pєяѕιαη* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》ارسال #کلمات فارسی در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #کلمات فارسی در گروه  از قبلا ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_arabic"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Pєяѕιαη* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Pєяѕιαη* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》ارسال # کلمات فارسی در گروه  ازاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال # کلمات فارسی در گروه  ازاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1123,17 +1123,17 @@ end
 local lock_edit = data[tostring(target)]["settings"]["lock_edit"] 
 if lock_edit == "yes" then
 if not lang then
- return "☆》*E∂ιтιηg* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*E∂ιтιηg* _Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》#ویرایش پیام در گروه  از قبل ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》#ویرایش پیام در گروه  از قبل ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_edit"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*E∂ιтιηg* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*E∂ιтιηg* _Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》#ویرایش پیام در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》#ویرایش پیام در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1152,16 +1152,16 @@ end
 local lock_edit = data[tostring(target)]["settings"]["lock_edit"]
  if lock_edit == "no" then
 if not lang then
-return "☆》*E∂ιтιηg* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*E∂ιтιηg* _Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》#ویرایش پیام در گروه از قبل ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》#ویرایش پیام در گروه از قبل ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_edit"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*E∂ιтιηg* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*E∂ιтιηg* _Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》#ویرایش پیام در گروه ازاد است🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》#ویرایش پیام در گروه ازاد است🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1180,17 +1180,17 @@ end
 local lock_spam = data[tostring(target)]["settings"]["lock_spam"] 
 if lock_spam == "yes" then
 if not lang then
- return "☆》*Sραм* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Sραм* _Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال #هرزنامه ( اسپم) در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #هرزنامه ( اسپم) در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_spam"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Sραм* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Sραм* _Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》ارسال #هرزنامه ( اسپم) در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #هرزنامه ( اسپم) در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1209,17 +1209,17 @@ end
 local lock_spam = data[tostring(target)]["settings"]["lock_spam"]
  if lock_spam == "no" then
 if not lang then
-return "☆》*Sραм* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Sραм* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
- return "☆》ارسال #هرزنامه (اسپم) در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #هرزنامه (اسپم) در گروه  از قبلا ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_spam"] = "no" 
 save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Sραм* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Sραм* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
- return "☆》ارسال #هرزنامه (اسپم) در گروه  ازاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #هرزنامه (اسپم) در گروه  ازاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1238,17 +1238,17 @@ end
 local lock_flood = data[tostring(target)]["settings"]["flood"] 
 if lock_flood == "yes" then
 if not lang then
- return "☆》*Fℓσσ∂ιηg* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Fℓσσ∂ιηg* _Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال #پیام مکرر در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #پیام مکرر در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["flood"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Fℓσσ∂ιηg* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Fℓσσ∂ιηg* _Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》ارسال # پیام مکرر در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال # پیام مکرر در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1267,16 +1267,16 @@ end
 local lock_flood = data[tostring(target)]["settings"]["flood"]
  if lock_flood == "no" then
 if not lang then
-return "☆》*Fℓσσ∂ιηg* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Fℓσσ∂ιηg* _Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》ارسال #پیام مکرر در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #پیام مکرر در گروه  از قبلا ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["flood"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Fℓσσ∂ιηg*  _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Fℓσσ∂ιηg*  _Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》ارسال #پیام مکرر در گروه  ازاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #پیام مکرر در گروه  ازاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1295,17 +1295,17 @@ end
 local lock_bots = data[tostring(target)]["settings"]["lock_bots"] 
 if lock_bots == "yes" then
 if not lang then
- return "☆》*Bσтѕ* _Pяσтєcтιση Iѕ Aℓяєα∂у Eηαвℓє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`》*Bσтѕ* _Pяσтєcтιση Iѕ Aℓяєα∂у Eηαвℓє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》#محافظت از گروه در برابر ربات ها از قبل فعال است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》#محافظت از گروه در برابر ربات ها از قبل فعال است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_bots"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Bσтѕ* _Pяσтєcтιση Hαѕ Bєєη Eηαвℓє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Bσтѕ* _Pяσтєcтιση Hαѕ Bєєη Eηαвℓє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》#محافظت از گروه در برابر ربات ها  فعال شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》#محافظت از گروه در برابر ربات ها  فعال شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1324,16 +1324,16 @@ end
 local lock_bots = data[tostring(target)]["settings"]["lock_bots"]
  if lock_bots == "no" then
 if not lang then
-return "☆》*Bσтѕ* _Pяσтєcтιση Iѕ Nσт Eηαвℓє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Bσтѕ* _Pяσтєcтιση Iѕ Nσт Eηαвℓє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "محافظت از گروه در برابر ربات ها غیر فعال است\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`محافظت از گروه در برابر ربات ها غیر فعال است`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_bots"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Bσтѕ* _Pяσтєcтιση Hαѕ Bєєη Dιѕαвℓє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Bσтѕ* _Pяσтєcтιση Hαѕ Bєєη Dιѕαвℓє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》#محافظت از گروه در برابر ربات ها  ازاد است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》#محافظت از گروه در برابر ربات ها  ازاد است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1352,17 +1352,17 @@ end
 local lock_markdown = data[tostring(target)]["settings"]["lock_markdown"] 
 if lock_markdown == "yes" then
 if not lang then 
- return "☆》*Mαяк∂σωη* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mαяк∂σωη* _Pσѕтιηg Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال #پیام دارای فونت در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #پیام دارای فونت در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_markdown"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mαяк∂σωη* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mαяк∂σωη* _Pσѕтιηg Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》ارسال #پیام دارای فونت در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #پیام دارای فونت در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1381,16 +1381,16 @@ end
 local lock_markdown = data[tostring(target)]["settings"]["lock_markdown"]
  if lock_markdown == "no" then
 if not lang then
-return "☆》*Mαяк∂σωη* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mαяк∂σωη* _Pσѕтιηg Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
-return "☆》ارسال #پیام دارای فونت در گروه  از قبلا ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #پیام دارای فونت در گروه  از قبلا ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_markdown"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mαяк∂σωη* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mαяк∂σωη* _Pσѕтιηg Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
-return "☆》ارسال #پیام درای فونت در گروه  ازاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #پیام درای فونت در گروه  ازاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1409,17 +1409,17 @@ end
 local lock_webpage = data[tostring(target)]["settings"]["lock_webpage"] 
 if lock_webpage == "yes" then
 if not lang then
- return "☆》*Wєвραgє* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Wєвραgє* _Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》ارسال #صفحات وب در گروه  از قبلا ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #صفحات وب در گروه  از قبلا ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_webpage"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Wєвραgє* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Wєвραgє* _Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》ارسال #صفحات وب در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》ارسال #صفحات وب در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1438,17 +1438,17 @@ end
 local lock_webpage = data[tostring(target)]["settings"]["lock_webpage"]
  if lock_webpage == "no" then
 if not lang then
-return "☆》*Wєвραgє* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Wєвραgє* _Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》ارسال #صفحات وب در گروه  از قبل ممنوع نیست🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #صفحات وب در گروه  از قبل ممنوع نیست🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_webpage"] = "no"
 save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Wєвραgє* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Wєвραgє* _Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》ارسال #صفحات وب در گروه  ازاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》ارسال #صفحات وب در گروه  ازاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1467,17 +1467,17 @@ end
 local lock_pin = data[tostring(target)]["settings"]["lock_pin"] 
 if lock_pin == "yes" then
 if not lang then
- return "☆》*Pιηηє∂ Mєѕѕαgє* _Iѕ Aℓяєα∂у Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Pιηηє∂ Mєѕѕαgє* _Iѕ Aℓяєα∂у Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》سنجاق کردن پیام در گروه از قبل ممنوع است🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》سنجاق کردن پیام در گروه از قبل ممنوع است🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_pin"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Pιηηє∂ Mєѕѕαgє* _Hαѕ Bєєη Lσcкє∂_🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Pιηηє∂ Mєѕѕαgє* _Hαѕ Bєєη Lσcкє∂_🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》سنجاق کردن پیام در گروه ممنوع شد🔒\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》سنجاق کردن پیام در گروه ممنوع شد🔒`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1496,17 +1496,17 @@ end
 local lock_pin = data[tostring(target)]["settings"]["lock_pin"]
  if lock_pin == "no" then
 if not lang then
-return "☆》*Pιηηє∂ Mєѕѕαgє* _Iѕ Nσт Lσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Pιηηє∂ Mєѕѕαgє* _Iѕ Nσт Lσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》سنجاق کردن پیام در گروه ممنوع نمیباشد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》سنجاق کردن پیام در گروه ممنوع نمیباشد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_pin"] = "no"
 save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Pιηηє∂ Mєѕѕαgє* _Hαѕ Bєєη Uηℓσcкє∂_🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Pιηηє∂ Mєѕѕαgє* _Hαѕ Bєєη Uηℓσcкє∂_🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》سنجاق کردن پیام در گروه آزاد شد🔓\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》سنجاق کردن پیام در گروه آزاد شد🔓`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1525,17 +1525,17 @@ end
 local lock_tabchi = data[tostring(target)]["settings"]["lock_tabchi"] 
 if lock_tabchi == "yes" then
 if not lang then
- return "*Tabchi* _Posting Is Already Locked_\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`*Tabchi* _Posting Is Already Locked`_\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "اوردن تبچی در گروه هم اکنون ممنوع است\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`اوردن تبچی در گروه هم اکنون ممنوع است`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
 data[tostring(target)]["settings"]["lock_tabchi"] = "yes"
 save_data(_config.moderation.data, data) 
 if not lang then
- return "*Tabchi* _Posting Has Been Locked_\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`*Tabchi* _Posting Has Been Locked`_\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "اوردن تبچی در گروه ممنوع شد\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`اوردن تبچی در گروه ممنوع شد`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1554,16 +1554,16 @@ end
 local lock_tabchi = data[tostring(target)]["settings"]["lock_tabchi"]
  if lock_tabchi == "no" then
 if not lang then
-return "*Tabchi* _Posting Is Not Locked_\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`*Tabchi* _Posting Is Not Locked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "اوردن تبچی در گروه ممنوع نمیباشد\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`اوردن تبچی در گروه ممنوع نمیباشد`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_tabchi"] = "no" save_data(_config.moderation.data, data) 
 if not lang then
-return "*Tabchi* _Posting Has Been Unlocked_\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`*Tabchi* _Posting Has Been Unlocked_`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "اوردن تبچی در گروه آزاد شد\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`اوردن تبچی در گروه آزاد شد`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1584,17 +1584,17 @@ end
 local lock_all = data[tostring(target)]["settings"]["lock_all"] 
 if lock_all == "yes" then 
 if not lang then
-return "☆》*Mυтє Aℓℓ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Aℓℓ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #همه  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #همه  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_all"] = "yes"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Aℓℓ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Aℓℓ* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #همه فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #همه فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1613,17 +1613,17 @@ end
 local lock_all = data[tostring(target)]["settings"]["lock_all"] 
 if lock_all == "no" then 
 if not lang then
-return "☆》*Mυтє Aℓℓ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Aℓℓ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #همه فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #همه فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_all"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Aℓℓ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Aℓℓ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #همه غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #همه غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end 
 end
 end
@@ -1643,17 +1643,17 @@ end
 local lock_gif = data[tostring(target)]["settings"]["lock_gif"] 
 if lock_gif == "yes" then
 if not lang then
- return "☆》*Mυтє Gιƒ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Gιƒ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #تصاویر متحرک  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "☆》قفل کردن #تصاویر متحرک  از قبل فعال است🔇\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_gif"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then 
- return "☆》*Mυтє Gιƒ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Gιƒ* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #تصاویر متحرک فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #تصاویر متحرک فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1672,17 +1672,17 @@ end
 local lock_gif = data[tostring(target)]["settings"]["lock_gif"]
  if lock_gif == "no" then
 if not lang then
-return "☆》*Mυтє Gιƒ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Gιƒ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #تصاویر متحرک فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #تصاویر متحرک فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_gif"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Gιƒ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Gιƒ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن # تصاویر متحرک غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن # تصاویر متحرک غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1701,17 +1701,17 @@ end
 local lock_game = data[tostring(target)]["settings"]["lock_game"] 
 if lock_game == "yes" then
 if not lang then
- return "☆》*Mυтє Gαмє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Gαмє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #بازی های تحت وب  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #بازی های تحت وب  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_game"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Gαмє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Gαмє* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #بازی های تحت وب   فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #بازی های تحت وب   فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1730,17 +1730,17 @@ end
 local lock_game = data[tostring(target)]["settings"]["lock_game"]
  if lock_game == "no" then
 if not lang then
-return "☆》*Mυтє Gαмє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Gαмє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #بازی های تحت وب   فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #بازی های تحت وب   فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_game"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Gαмє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Gαмє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #بازی های تحت وب  غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #بازی های تحت وب  غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1759,17 +1759,17 @@ end
 local lock_inline = data[tostring(target)]["settings"]["lock_inline"] 
 if lock_inline == "yes" then
 if not lang then
- return "☆》*Mυтє Iηℓιηє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Iηℓιηє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #کیبورد شیشه ای از قبل فعال است🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #کیبورد شیشه ای از قبل فعال است🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_inline"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Iηℓιηє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Iηℓιηє* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #کیبورد شیشه ای فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #کیبورد شیشه ای فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1788,17 +1788,17 @@ end
 local lock_inline = data[tostring(target)]["settings"]["lock_inline"]
  if lock_inline == "no" then
 if not lang then
-return "☆》*Mυтє Iηℓιηє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Iηℓιηє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #کیبورد شیشه ای فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #کیبورد شیشه ای فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_inline"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Iηℓιηє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Iηℓιηє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #کیبورد شیشه ای  غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #کیبورد شیشه ای  غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1817,17 +1817,17 @@ end
 local lock_text = data[tostring(target)]["settings"]["lock_text"] 
 if lock_text == "yes" then
 if not lang then
- return "☆》*Mυтє Tєχт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Tєχт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #متن  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "☆》قفل کردن #متن  از قبل فعال است🔇\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_text"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Tєχт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Tєχт* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #متن فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #متن فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1846,17 +1846,17 @@ end
 local lock_text = data[tostring(target)]["settings"]["lock_text"]
  if lock_text == "no" then
 if not lang then
-return "☆》*Mυтє Tєχт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mυтє Tєχт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
-return "☆》قفل کردن # متن فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》قفل کردن # متن فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 end
 else 
 data[tostring(target)]["settings"]["lock_text"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Tєχт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Tєχт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن # متن غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن # متن غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1875,17 +1875,17 @@ end
 local lock_photo = data[tostring(target)]["settings"]["lock_photo"] 
 if lock_photo == "yes" then
 if not lang then
- return "☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #عکس  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #عکس  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_photo"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Pнσтσ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Pнσтσ* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #عکس فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #عکس فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1904,17 +1904,17 @@ end
 local lock_photo = data[tostring(target)]["settings"]["lock_photo"]
  if lock_photo == "no" then
 if not lang then
-return "☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Pнσтσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #عکس فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #عکس فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_photo"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Pнσтσ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Pнσтσ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن # عکس غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن # عکس غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1933,17 +1933,17 @@ end
 local lock_video = data[tostring(target)]["settings"]["lock_video"] 
 if lock_video == "yes" then
 if not lang then
- return "☆》*Mυтє Vι∂єσ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Vι∂єσ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #ویدیو  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #ویدیو  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_video"] = "yes" 
 save_data(_config.moderation.data, data)
 if not lang then 
- return "☆》*Mυтє Vι∂єσ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Vι∂єσ* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #ویدیو فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #ویدیو فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1962,17 +1962,17 @@ end
 local lock_video = data[tostring(target)]["settings"]["lock_video"]
  if lock_video == "no" then
 if not lang then
-return "☆》*Mυтє Vι∂єσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Vι∂єσ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #ویدیو فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #ویدیو فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_video"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Vι∂єσ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Vι∂єσ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #ویدیو غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #ویدیو غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -1991,17 +1991,17 @@ end
 local lock_audio = data[tostring(target)]["settings"]["lock_audio"] 
 if lock_audio == "yes" then
 if not lang then
- return "☆》*Mυтє Aυ∂ισ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Aυ∂ισ* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #اهنگ  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #اهنگ  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_audio"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Aυ∂ισ* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Aυ∂ισ* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else 
-return "☆》قفل کردن #اهنگ فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #اهنگ فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2020,17 +2020,17 @@ end
 local lock_audio = data[tostring(target)]["settings"]["lock_audio"]
  if lock_audio == "no" then
 if not lang then
-return "☆》*Mυтє Aυ∂ισ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Aυ∂ισ* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #اهنگ فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #اهنگ فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_audio"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Aυ∂ισ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mυтє Aυ∂ισ* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
-return "☆》قفل کردن #اهنگ غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》قفل کردن #اهنگ غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 end
 end
 end
@@ -2049,17 +2049,17 @@ end
 local lock_voice = data[tostring(target)]["settings"]["lock_voice"] 
 if lock_voice == "yes" then
 if not lang then
- return "☆》*Mυтє Vσιcє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Vσιcє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #صدا (وویس)  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #صدا (وویس)  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_voice"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Vσιcє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Vσιcє* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #صدا (وویس)  فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #صدا (وویس)  فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2078,17 +2078,17 @@ end
 local lock_voice = data[tostring(target)]["settings"]["lock_voice"]
  if lock_voice == "no" then
 if not lang then
-return "☆》*Mυтє Vσιcє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Vσιcє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #صدا (وویس) فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #صدا (وویس) فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_voice"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Vσιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Vσιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #صدا (وویس) غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #صدا (وویس) غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2107,17 +2107,17 @@ end
 local lock_sticker = data[tostring(target)]["settings"]["lock_sticker"] 
 if lock_sticker == "yes" then
 if not lang then
- return "☆》*Mυтє Sтιcкєя* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Sтιcкєя* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #استیکر  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #استیکر  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_sticker"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Sтιcкєя* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Sтιcкєя* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #استیکر فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #استیکر فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2136,17 +2136,17 @@ end
 local lock_sticker = data[tostring(target)]["settings"]["lock_sticker"]
  if lock_sticker == "no" then
 if not lang then
-return "☆》*Mυтє Sтιcкєя* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Sтιcкєя* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #استیکر فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #استیکر فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_sticker"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Sтιcкєя* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mυтє Sтιcкєя* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
-return "☆》قفل کردن #استیکر غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #استیکر غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end 
 end
 end
@@ -2165,17 +2165,17 @@ end
 local lock_contact = data[tostring(target)]["settings"]["lock_contact"] 
 if lock_contact == "yes" then
 if not lang then
- return "☆》*Mυтє Cσηтαcт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Cσηтαcт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #ارسال مخاطب  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #ارسال مخاطب  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_contact"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Cσηтαcт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Cσηтαcт* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #ارسال مخاطب فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #ارسال مخاطب فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2194,17 +2194,17 @@ end
 local lock_contact = data[tostring(target)]["settings"]["lock_contact"]
  if lock_contact == "no" then
 if not lang then
-return "☆》*Mυтє Cσηтαcт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Cσηтαcт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #ارسال مخطب فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #ارسال مخطب فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_contact"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Cσηтαcт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Cσηтαcт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #ارسال مخاطب غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #ارسال مخاطب غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2223,17 +2223,17 @@ end
 local lock_forward = data[tostring(target)]["settings"]["lock_forward"] 
 if lock_forward == "yes" then
 if not lang then
- return "☆》*Mυтє Fσяωαя∂* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Fσяωαя∂* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #فوروارد از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #فوروارد از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_forward"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Fσяωαя∂* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Fσяωαя∂* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #فوروارد فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #فوروارد فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2252,17 +2252,17 @@ end
 local lock_forward = data[tostring(target)]["settings"]["lock_forward"]
  if lock_forward == "no" then
 if not lang then
-return "☆》*Mυтє Fσяωαя∂* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mυтє Fσяωαя∂* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
-return "☆》قفل کردن #فوروارد فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #فوروارد فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end 
 else 
 data[tostring(target)]["settings"]["lock_forward"] = "no"
  save_data(_config.moderation.data, data)
 if not lang then 
-return "☆》*Mυтє Fσяωαя∂* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Fσяωαя∂* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #فوروارد غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #فوروارد غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2281,17 +2281,17 @@ end
 local lock_location = data[tostring(target)]["settings"]["lock_location"] 
 if lock_location == "yes" then
 if not lang then
- return "☆》*Mυтє Lσcαтιση* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Lσcαтιση* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #موقعیت  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #موقعیت  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_location"] = "yes" 
 save_data(_config.moderation.data, data)
 if not lang then
- return "☆》*Mυтє Lσcαтιση* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Lσcαтιση* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #موقعیت فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #موقعیت فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2310,17 +2310,17 @@ end
 local lock_location = data[tostring(target)]["settings"]["lock_location"]
  if lock_location == "no" then
 if not lang then
-return "☆》*Mυтє Lσcαтιση* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Lσcαтιση* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #موقعیت فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #موقعیت فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_location"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Lσcαтιση* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Lσcαтιση* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #موقعیت غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #موقعیت غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2339,17 +2339,17 @@ end
 local lock_document = data[tostring(target)]["settings"]["lock_document"] 
 if lock_document == "yes" then
 if not lang then
- return "☆》*Mυтє Dσcυмєηт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Dσcυмєηт* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #اسناد  از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #اسناد  از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_document"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Dσcυмєηт* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Dσcυмєηт* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
- return "☆》قفل کردن #اسناد فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #اسناد فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2368,17 +2368,17 @@ end
 local lock_document = data[tostring(target)]["settings"]["lock_document"]
  if lock_document == "no" then
 if not lang then
-return "☆》*Mυтє Dσcυмєηт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Dσcυмєηт* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 elseif lang then
-return "☆》قفل کردن #اسناد فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #اسناد فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else 
 data[tostring(target)]["settings"]["lock_document"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє Dσcυмєηт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute" 
+return "`☆》*Mυтє Dσcυмєηт* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990" 
 else
-return "☆》قفل کردن #اسناد غیر فعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #اسناد غیر فعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2397,17 +2397,17 @@ end
 local lock_tgservice = data[tostring(target)]["settings"]["lock_tgservice"] 
 if lock_tgservice == "yes" then
 if not lang then
- return "☆》*Mυтє TgSєяνιcє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє TgSєяνιcє* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن #خدمات تلگرام از قبل فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن #خدمات تلگرام از قبل فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_tgservice"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
-return "☆》قفل کردن #خدمات تلگرام  فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #خدمات تلگرام  فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2426,17 +2426,17 @@ end
 local lock_tgservice = data[tostring(target)]["settings"]["lock_tgservice"]
  if lock_tgservice == "no" then
 if not lang then
-return "☆》*Mυтє TgSєяνιcє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mυтє TgSєяνιcє* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
-return "☆》قفل کردن #خدمات تلگرام فعال نیست🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #خدمات تلگرام فعال نیست🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end 
 else 
 data[tostring(target)]["settings"]["lock_tgservice"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
-return "☆》قفل کردن #خدمات تلگرام  غیرفعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن #خدمات تلگرام  غیرفعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end 
 end
 end
@@ -2456,17 +2456,17 @@ end
 local lock_keyboard = data[tostring(target)]["settings"]["lock_keyboard"] 
 if lock_keyboard == "yes" then
 if not lang then
- return "☆》*Mυтє Kєувσαя∂* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Kєувσαя∂* _Iѕ Aℓяєα∂у Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
- return "☆》قفل کردن صفحه کلید فعال است🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》قفل کردن صفحه کلید فعال است🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 else
  data[tostring(target)]["settings"]["lock_keyboard"] = "yes" 
 save_data(_config.moderation.data, data) 
 if not lang then
- return "☆》*Mυтє Kєувσαя∂* _Hαѕ Bєєη Eηαвℓє∂_🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+ return "`☆》*Mυтє Kєувσαя∂* _Hαѕ Bєєη Eηαвℓє∂_🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
-return "☆》قفل کردن صفحه کلید فعال شد🔇\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن صفحه کلید فعال شد🔇`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end
 end
 end
@@ -2485,17 +2485,17 @@ end
 local lock_keyboard = data[tostring(target)]["settings"]["lock_keyboard"]
  if lock_keyboard == "no" then
 if not lang then
-return "☆》*Mυтє Kєувσαя∂* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mυтє Kєувσαя∂* _Iѕ Aℓяєα∂у Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 elseif lang then
-return "☆》قفل کردن صفحه کلید غیرفعال است🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن صفحه کلید غیرفعال است🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end 
 else 
 data[tostring(target)]["settings"]["lock_keyboard"] = "no"
  save_data(_config.moderation.data, data) 
 if not lang then
-return "☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》*Mυтє TgSєяνιcє* _Hαѕ Bєєη Dιѕαвℓє∂_🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 else
-return "☆》قفل کردن صفحه کلید غیرفعال شد🔊\n*_________________*\n*🎭فروشنده :* @pasargadcute"
+return "`☆》قفل کردن صفحه کلید غیرفعال شد🔊`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
 end 
 end
 end
@@ -2729,7 +2729,7 @@ end
 end
 if not lang then
 local settings = data[tostring(target)]["settings"] 
- text ="*⚙gяσυρ ѕєттιηgѕ:*\n》*ℓσcк є∂ιт :* "..settings.lock_edit.."\n》*ℓσcк ℓιηкѕ :* "..settings.lock_link.."\n》*ℓσcк тαgѕ :* "..settings.lock_tag.."\n》*ℓσcк ƒℓσσ∂ :* "..settings.flood.."\n》*ℓσcк ѕραм :* "..settings.lock_spam.."\n》*ℓσcк мєηтιση :* "..settings.lock_mention.."\n》*ℓσcк αяαвιc :* "..settings.lock_arabic.."\n》*ℓσcк ωєвραgє :* "..settings.lock_webpage.."\n》*ℓσcк мαяк∂σωη :* "..settings.lock_markdown.."\n》*ℓσcк єηgℓιѕн :* "..settings.english.."\n》*ℓσcк ƒσѕн :* "..settings.fosh.."\n》*ℓσcк α∂ѕ :* "..settings.ads.."\n》*ℓσcк νιєωѕ :* "..settings.views.."\n》*ℓσcк ємσנι :* "..settings.emoji.."\n》*gяσυρ ωєℓcσмє :* "..settings.welcome.."\n》*ℓσcк ριη мєѕѕαgє :* "..settings.lock_pin.."\n》*ℓσcк tabchi :* "..settings.lock_tabchi.."\n》*вσтѕ ρяσтєcтιση :* "..settings.lock_bots.."\n*》ƒℓσσ∂ ѕєηѕιтινιту:* *"..NUM_MSG_MAX.."*\n*____________________*\n*⚙gяσυρ мυтє ℓιѕт* :\n》*мυтє αℓℓ : * "..settings.lock_all.."\n》*мυтє gιƒ :* "..settings.lock_gif.."\n》*мυтє тєχт :* "..settings.lock_text.."\n》*мυтє ιηℓιηє :* "..settings.lock_inline.."\n》*мυтє gαмє :* "..settings.lock_game.."\n》*мυтє ρнσтσ :* "..settings.lock_photo.."\n》*мυтє νι∂єσ :* "..settings.lock_video.."\n》*мυтє αυ∂ισ :* "..settings.lock_audio.."\n》*мυтє νσιcє :* "..settings.lock_voice.."\n》*мυтє ѕтιcкєя :* "..settings.lock_sticker.."\n》*мυтє cσηтαcт :* "..settings.lock_contact.."\n》*мυтє ƒσяωαя∂ :* "..settings.lock_forward.."\n》*мυтє ℓσcαтιση :* "..settings.lock_location.."\n》*мυтє ∂σcυмєηт :* "..settings.lock_document.."\n》*мυтє тgѕєяνιcє :* "..settings.lock_tgservice.."\n》*мυтє кєувσαя∂ :* "..settings.lock_keyboard.."\n*____________________*\n*🌐gяσυρ ℓαηgυαgє* : єη\n🗓*єχριя:* _"..expire_date.."_\n*✒ѕυ∂σ вσт:* @lCute1990l\n*Channel:* @pasargadcute"
+ text ="*⚙gяσυρ ѕєттιηgѕ:*\n》*ℓσcк є∂ιт :* "..settings.lock_edit.."\n》*ℓσcк ℓιηкѕ :* "..settings.lock_link.."\n》*ℓσcк тαgѕ :* "..settings.lock_tag.."\n》*ℓσcк ƒℓσσ∂ :* "..settings.flood.."\n》*ℓσcк ѕραм :* "..settings.lock_spam.."\n》*ℓσcк мєηтιση :* "..settings.lock_mention.."\n》*ℓσcк αяαвιc :* "..settings.lock_arabic.."\n》*ℓσcк ωєвραgє :* "..settings.lock_webpage.."\n》*ℓσcк мαяк∂σωη :* "..settings.lock_markdown.."\n》*ℓσcк єηgℓιѕн :* "..settings.english.."\n》*ℓσcк ƒσѕн :* "..settings.fosh.."\n》*ℓσcк α∂ѕ :* "..settings.ads.."\n》*ℓσcк νιєωѕ :* "..settings.views.."\n》*ℓσcк ємσנι :* "..settings.emoji.."\n》*gяσυρ ωєℓcσмє :* "..settings.welcome.."\n》*ℓσcк ριη мєѕѕαgє :* "..settings.lock_pin.."\n》*ℓσcк tabchi :* "..settings.lock_tabchi.."\n》*вσтѕ ρяσтєcтιση :* "..settings.lock_bots.."\n*》ƒℓσσ∂ ѕєηѕιтινιту:* *"..NUM_MSG_MAX.."*\n*____________________*\n*⚙gяσυρ мυтє ℓιѕт* :\n》*мυтє αℓℓ : * "..settings.lock_all.."\n》*мυтє gιƒ :* "..settings.lock_gif.."\n》*мυтє тєχт :* "..settings.lock_text.."\n》*мυтє ιηℓιηє :* "..settings.lock_inline.."\n》*мυтє gαмє :* "..settings.lock_game.."\n》*мυтє ρнσтσ :* "..settings.lock_photo.."\n》*мυтє νι∂єσ :* "..settings.lock_video.."\n》*мυтє αυ∂ισ :* "..settings.lock_audio.."\n》*мυтє νσιcє :* "..settings.lock_voice.."\n》*мυтє ѕтιcкєя :* "..settings.lock_sticker.."\n》*мυтє cσηтαcт :* "..settings.lock_contact.."\n》*мυтє ƒσяωαя∂ :* "..settings.lock_forward.."\n》*мυтє ℓσcαтιση :* "..settings.lock_location.."\n》*мυтє ∂σcυмєηт :* "..settings.lock_document.."\n》*мυтє тgѕєяνιcє :* "..settings.lock_tgservice.."\n》*мυтє кєувσαя∂ :* "..settings.lock_keyboard.."\n*____________________*\n*🌐gяσυρ ℓαηgυαgє* : єη\n🗓*єχριя:* _"..expire_date.."_\n*✒ѕυ∂σ вσт:* @MiladKhani1990\n*Channel:* @SMARTBOOT "
 else
 local exp = redis:get("charged:"..msg.chat_id_)
     local day = 86400
@@ -2741,7 +2741,7 @@ local exp = redis:get("charged:"..msg.chat_id_)
        expirefa = " *"..d.."* _روز_"
    end
 local settings = data[tostring(target)]["settings"] 
- text = "*تنظیمات گروه:*\n*>قفل ویرایش پیام :* "..settings.lock_edit.."\n*>قفل لینک :* "..settings.lock_link.."\n*>قفل تگ :* "..settings.lock_tag.."\n*>قفل پیام مکرر :* "..settings.flood.."\n*>قفل هرزنامه :* "..settings.lock_spam.."\n*>قفل فراخوانی :* "..settings.lock_mention.."\n*>قفل عربی :* "..settings.lock_arabic.."\n*>قفل صفحات وب :* "..settings.lock_webpage.."\n*>قفل فونت :* "..settings.lock_markdown.."\n*>قفل انگلیسی :* "..settings.english.."\n*>قفل فحش: * "..settings.fosh.."\n*>قفل تبلیفات:* "..settings.ads.."\n*>قفل پست ویودار:* "..settings.views.."\n*>قفل اموجی:* "..settings.emoji.."\n*>پیام خوشآمد گویی :* "..settings.welcome.."\n*>قفل سنجاق کردن :* "..settings.lock_pin.."\n*>قفل اوردن تبچی :* "..settings.lock_tabchi.."\n*>محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*>حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست قفل ها* : \n*>قفل همه : * "..settings.lock_all.."\n*>قفل تصاویر متحرک :* "..settings.lock_gif.."\n*>قفل متن :* "..settings.lock_text.."\n*>قفل کیبورد شیشه ای :* "..settings.lock_inline.."\n*>قفل بازی های تحت وب :* "..settings.lock_game.."\n*>قفل عکس :* "..settings.lock_photo.."\n*>قفل فیلم :* "..settings.lock_video.."\n*>قفل آهنگ :* "..settings.lock_audio.."\n*>قفل صدا :* "..settings.lock_voice.."\n*>قفل برچسب :* "..settings.lock_sticker.."\n*>قفل مخاطب :* "..settings.lock_contact.."\n*>قفل نقل قول :* "..settings.lock_forward.."\n*>قفل موقعیت :* "..settings.lock_location.."\n*>قفل اسناد :* "..settings.lock_document.."\n*>قفل خدمات تلگرام :* "..settings.lock_tgservice.."\n*>قفل صفحه کلید :* "..settings.lock_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *فارسی*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n✒*برنامه نویس:* @lCute1990l\n*Channel:* @pasargadcute"
+ text = "*تنظیمات گروه:*\n*>قفل ویرایش پیام :* "..settings.lock_edit.."\n*>قفل لینک :* "..settings.lock_link.."\n*>قفل تگ :* "..settings.lock_tag.."\n*>قفل پیام مکرر :* "..settings.flood.."\n*>قفل هرزنامه :* "..settings.lock_spam.."\n*>قفل فراخوانی :* "..settings.lock_mention.."\n*>قفل عربی :* "..settings.lock_arabic.."\n*>قفل صفحات وب :* "..settings.lock_webpage.."\n*>قفل فونت :* "..settings.lock_markdown.."\n*>قفل انگلیسی :* "..settings.english.."\n*>قفل فحش: * "..settings.fosh.."\n*>قفل تبلیفات:* "..settings.ads.."\n*>قفل پست ویودار:* "..settings.views.."\n*>قفل اموجی:* "..settings.emoji.."\n*>پیام خوشآمد گویی :* "..settings.welcome.."\n*>قفل سنجاق کردن :* "..settings.lock_pin.."\n*>قفل اوردن تبچی :* "..settings.lock_tabchi.."\n*>محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*>حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست قفل ها* : \n*>قفل همه : * "..settings.lock_all.."\n*>قفل تصاویر متحرک :* "..settings.lock_gif.."\n*>قفل متن :* "..settings.lock_text.."\n*>قفل کیبورد شیشه ای :* "..settings.lock_inline.."\n*>قفل بازی های تحت وب :* "..settings.lock_game.."\n*>قفل عکس :* "..settings.lock_photo.."\n*>قفل فیلم :* "..settings.lock_video.."\n*>قفل آهنگ :* "..settings.lock_audio.."\n*>قفل صدا :* "..settings.lock_voice.."\n*>قفل برچسب :* "..settings.lock_sticker.."\n*>قفل مخاطب :* "..settings.lock_contact.."\n*>قفل نقل قول :* "..settings.lock_forward.."\n*>قفل موقعیت :* "..settings.lock_location.."\n*>قفل اسناد :* "..settings.lock_document.."\n*>قفل خدمات تلگرام :* "..settings.lock_tgservice.."\n*>قفل صفحه کلید :* "..settings.lock_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *فارسی*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n✒*برنامه نویس:* @MiladKhani1990\n*Channel:* @SMARTBOOT "
 end
 if not lang then
 text = string.gsub(text, "yes", "#ყεร ✔")
@@ -3273,9 +3273,9 @@ if matches[1] == 'linkpv' and is_mod(msg) or matches[1] == 'Linkpv' and is_mod(m
   if matches[1] == "rules" or matches[1] == "قوانین" or matches[1] == "Rules" then
  if not data[tostring(chat)]['rules'] then
    if not lang then
-     rules = "ℹRυℓєѕ :\n1 *Nσ Fℓσσ∂*.\n2 *Nσ Sραм*.\n3 *Nσ A∂νєятιѕιηg*.\n4 *Tяу тσ ѕтαу ση тσριc*.\n5 *Fσявι∂∂єη αηу яαcιѕт, ѕєχυαℓ, нσмσρнσвιc σя gσяє cσηтєηт*.\n➡ *Rєρєαтє∂ ƒαιℓυяє тσ cσмρℓу ωιтн тнєѕє яυℓєѕ ωιℓℓ cαυѕє вαη.*\n@pasargadcute"
+     rules = "ℹRυℓєѕ :\n1 *Nσ Fℓσσ∂*.\n2 *Nσ Sραм*.\n3 *Nσ A∂νєятιѕιηg*.\n4 *Tяу тσ ѕтαу ση тσριc*.\n5 *Fσявι∂∂єη αηу яαcιѕт, ѕєχυαℓ, нσмσρнσвιc σя gσяє cσηтєηт*.\n➡ *Rєρєαтє∂ ƒαιℓυяє тσ cσмρℓу ωιтн тнєѕє яυℓєѕ ωιℓℓ cαυѕє вαη.*\n@SMARTBOOT "
     elseif lang then
-       rules = "ℹ_قوانین :_\n1 _ارسال پیام مکرر ممنوع._\n2 _اسپم ممنوع_.\n3 _تبلیغ ممنوع_.\n4 _سعی کنید از موضوع خارج نشید_.\n5 _هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع_ .\n⬅️ _از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود_.\n@pasargadcute"
+       rules = "ℹ_قوانین :_\n1 _ارسال پیام مکرر ممنوع._\n2 _اسپم ممنوع_.\n3 _تبلیغ ممنوع_.\n4 _سعی کنید از موضوع خارج نشید_.\n5 _هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع_ .\n⬅️ _از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود_.\n@SMARTBOOT "
  end
         else
      rules = "*Group Rules :*\n"..data[tostring(chat)]['rules']
@@ -3499,8 +3499,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute				
+*🎭channel* : @SMARTBOOT 
+*💳shop:* @MiladKhani1990				
 *___________________________*
 ]]
 elseif lang then
@@ -3527,8 +3527,8 @@ text = [[
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute				
+*🎭channel* : @SMARTBOOT 
+*💳shop:* @MiladKhani1990				
 *___________________________*
 ]]
 end
@@ -3643,8 +3643,8 @@ text = [[
 *موفق باشید ;)*
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute			
+*🎭channel* : @SMARTBOOT 
+*💳shop:* @MiladKhani1990			
 *___________________________*
 
 ]]
@@ -3670,8 +3670,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute					
+*🎭shop :* @MiladKhani1990
+*🎭Channel:* @SMARTBOOT 					
 *___________________________*
 
  ]]
@@ -3694,8 +3694,8 @@ _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute				
+*🎭shop :* @MiladKhani1990
+*🎭Channel:* @SMARTBOOT 				
 *___________________________*
 ]]
 end
@@ -3803,8 +3803,8 @@ text = [[
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute					
+*🎭shop :* @MiladKhani1990
+*🎭Channel:* @SMARTBOOT 					
 *___________________________*
 ]]
 elseif lang then
@@ -3904,8 +3904,8 @@ text = [[
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute				
+*🎭shop :* @MiladKhani1990
+*🎭Channel:* @SMARTBOOT 				
 *___________________________*
 ]]
 end
@@ -3971,8 +3971,8 @@ _Tr en سلام_
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute					
+*🎭shop :* @MiladKhani1990
+*🎭Channel:* @SMARTBOOT 					
 *___________________________*
 ]]
 elseif lang then
@@ -4033,8 +4033,8 @@ _ترجمه en سلام_
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
 *___________________________*
-*🎭shop :* @lCute1990l
-*🎭Channel:* @pasargadcute					
+*🎭shop :* @MiladKhani1990
+*🎭Channel:* @SMARTBOOT 					
 *___________________________*
 ]]
 end

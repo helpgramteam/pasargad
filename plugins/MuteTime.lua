@@ -18,7 +18,7 @@ local function run(msg, matches)
      local num2 = tonumber(minutes) * 60
      local num4 = tonumber(num1 + num2)
 	 redis:setex(hash, num4, true)
-     return "⛔️گروه به مدت: \n`"..matches[2].."` ساعت\n`"..matches[3].."` دقیقه \nتعطیل میباشد.️"
+     return "⛔️گروه به مدت: \n`"..matches[2].."` ساعت\n`"..matches[3].."` دقیقه \nتعطیل میباشد.️ \n *_________________*\n `گروه خود را با ربات ما هوشمند کنید` \n *💳 ایدی جهت سفارش* : \n  @MiladKhani1990  "
     end
   end
   if matches[1]:lower() == 'unmt' and is_mod(msg) or matches[1]:lower() == 'باصدا' and is_mod(msg) then

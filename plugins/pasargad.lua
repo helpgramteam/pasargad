@@ -1,16 +1,16 @@
 ﻿local function amir(msg, matches)
-  if matches[1] == "pasargad" or "پاسارگاد" then
+  if matches[1] == "SMARTBOOT" or "اسمارت بات" then
       if is_sudo(msg) then
-       return "انلاینم عزیزم و حواسم به همه چی هست"
+       return "`smart is online`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990"
     end
   end	
 end  
 return {
   patterns = {
-    "^[Pp]asargad$",
-	"^(پاسارگاد)$"
+    "^[Ss]MARTBOOT$",
+	"^(اسمارت بات)$"
     },
   run = amir
 }
 
---By amir helpgramteam
+--By amir    `smart is online`\n*_________________*\n*🎭channel :* @SMARTBOOT \n *💳shop:* @MiladKhani1990
